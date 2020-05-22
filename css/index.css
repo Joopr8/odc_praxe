@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+}
+
+.black-desc {
+  background-color: black;
+  border: 2em solid white;
+  animation-duration: 0;
+}
+
+.black-desc a {
+  background-color: white;
+  float: right;
+  margin: 30px;
+  font-family: var(--font-titles);
+  font-size: 3em;
+  padding: 0.1em;
+  text-decoration: underline;
+  color: black;
+}
+
+.title {
+  font-family: var(--font-titles);
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50%;
+}
+
+.title h2 {
+  font-size: 5em;
+}
+
+#praxe-desc {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#praxe-desc div {
+  margin-top: 500px;
+}
+
+.word {
+  font-family: var(--font-titles);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  margin-top: 2em;
+  width: 590px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 2em;
+  background-color: transparent;
+}
+
+#praxe-desc div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#praxe-desc div:nth-child(2) {
+  font-family: var(--font-fluid);
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: center;
+}
+
+#praxe-desc div:nth-child(3) {
+  font-family: var(--font-fluid);
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+}
+
+#praxe-desc div:nth-child(4) {
+  font-family: var(--font-titles);
+  font-size: 19em;
+  text-align: center;
+  padding-bottom: 0.2em;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.green-red {
+  margin-top: 20em;
+  display: flex;
+  justify-content: center;
+}
+
+#green,
+#red {
+  border-radius: 2em;
+}
+
+#green,
+#red h2 {
+  color: white;
+  font-family: var(--font-titles);
+}
+
+#green {
+  background-color: #73b155;
+  height: 170vh;
+  width: 40%;
+  margin-right: 10px;
+}
+
+#red {
+  margin-top: -200px;
+  background-color: #b3252e;
+  height: 170vh;
+  width: 40%;
+}
+
+.left,
+.right {
+  float: left;
+  font-size: 5em;
+  padding: 1.5em 1em;
+}
+
+.right {
+  float: right;
+}
+
+.person:nth-child(1) {
+  background-image: url(../img/ricardo.jpg);
+}
+
+.person:nth-child(2) {
+  background-image: url(../img/joao.jpeg);
+}
+
+.person:nth-child(3) {
+  background-image: url(../img/cruz-serra.jpg);
+}
+
+.person:nth-child(4) {
+  background-image: url(../img/Manuel.jpg);
+}
+
+.person:hover {
+  filter: grayscale(100%);
+  transition: filter 0.1s ease-in-out;
+}
+
+footer {
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+  margin-top: 200px;
+}
+
+.cta {
+  color: white;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-fluid);
+}
+
+.cta h3 {
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.cta h4 {
+  text-align: center;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 1400px) {
+  .green-red {
+    font-size: 0.7em;
+  }
+}

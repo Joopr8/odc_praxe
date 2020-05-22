@@ -1,0 +1,69 @@
+:root {
+  --font-fluid: Hiragino Sans;
+  --font-titles: Righteous, cursive;
+}
+
+* {
+  font-family: Righteous, cursive;
+}
+
+.quotes {
+  margin-top: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person {
+  height: 60vh;
+  width: 50vw;
+  resize: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  background-size: cover;
+}
+
+.person h3 {
+  font-size: 1.5em;
+  font-family: var(--font-fluid);
+  color: white;
+  text-align: center;
+  opacity: 10%;
+  width: 80%;
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.person h4 {
+  font-size: 1em;
+  font-weight: 100;
+  font-family: var(--font-fluid);
+  color: white;
+  text-align: center;
+  opacity: 20%;
+}
+
+.person:hover h3 {
+  opacity: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.person:hover h4 {
+  opacity: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.person:hover {
+  filter: grayscale(100%);
+  transition: filter 0.1s ease-in-out;
+  background-color: black;
+}
+
+@media only screen and (max-width: 1400px) {
+  .person {
+    width: 70vw;
+  }
+}

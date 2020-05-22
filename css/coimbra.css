@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.white-section {
+  background-color: white;
+  border: 2.1em solid black;
+  height: 300vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-titles);
+  height: 100vh;
+}
+
+.white-section a {
+  background-color: white;
+  float: right;
+  margin: 30px;
+  font-family: var(--font-titles);
+  font-size: 3em;
+  padding: 0.1em;
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+
+.title h1 {
+  font-size: 15em;
+}
+
+.title p {
+  font-size: 3em;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.details {
+  font-family: var(--font-titles);
+  font-size: 3em;
+}
+
+.details div {
+  margin: 5em 1em;
+}
+
+#grey {
+  color: grey;
+}
+
+.person:nth-child(1) {
+  background-image: url(../img/matias.jpg);
+}
+
+.person:nth-child(2) {
+  background-image: url(../img/joao.jpeg);
+}
+
+.person:nth-child(3) {
+  background-image: url(../img/ricardo.jpg);
+}
+
+.observation {
+  display: flex;
+  justify-content: center;
+}
+
+#code {
+  width: 90%;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: var(--font-fluid);
+  margin: 15em 0;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+#articles .box {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+}
+
+#articles .box > div {
+  height: 100vh;
+  font-size: 1em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#articles {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color: #999;
+  position: absolute;
+  width: 100vh;
+  height: 100vw;
+}
+
+#container {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space: nowrap;
+}
+
+.box {
+  border: 10px solid white;
+  background-color: black;
+  color: white;
+}
+
+.box h2 {
+  font-family: var(--font-titles);
+  text-align: center;
+  font-size: 2em;
+}
+
+.box p {
+  font-family: var(--font-fluid);
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-top: 1em;
+  text-align: center;
+}

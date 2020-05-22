@@ -1,0 +1,104 @@
+<html>  
+    <head>
+        <link href="//db.onlinewebfonts.com/c/3f086dbc376893f56b4a9c4d3cac5df9?family=Hiragino+Sans+GB" rel="stylesheet" type="text/css"/>
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <link href="css/general.css" rel="stylesheet" type="text/css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Righteous" />
+        <title>Praxe</title>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <section class="black-desc" id="header">
+            <a href="coimbra.html"> coimbra </a>
+            <div class="title" data-aos="fade-down">
+                <h2>Praxe pensada fora da caixa</h2>
+            </div>
+            <div id="praxe-desc">
+                <div data-aos="fade-down" class="word">
+                    <h1>Consegues definir a praxe numa palavra?</h1>
+                    <input class="box"></input>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <p>«aquilo <span class="bold"> que se pratica habitualmente </span>; prática; sistema;<br> uso estabelecido;<span class="bold"> regra</span>; etiqueta; <span class="bold"> execução; </span>realização»</p>
+                </div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <p>do grego praxis, <span class="bold">«ação»</span> <br> pelo latim praxe, <span class="bold">«prática»</span></p>
+                </div>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600"  data-aos-offset="100">praxe</div>
+            </div>
+        </section>
+        <section class="green-red">
+            <div id="green" data-aos="fade-right" data-aos-offset="500">
+                <h2 class="left"> Educação </h2>
+                <h2 class="right">Integração </h2>
+                <h2 class="left"> Alegria </h2>
+                <h2 class="right">Crescimento </h2>
+                <h2 class="left"> Solidariedade </h2>
+                <h2 class="right">Auxílio </h2>
+            </div>
+            <div id="red" data-aos="fade-left" data-aos-offset="500">
+                <h2 class="right">Terror </h2>
+                <h2 class="left"> Violência </h2>
+                <h2 class="right">Humilhação  </h2>
+                <h2 class="left"> Parvoice </h2>
+                <h2 class="right">Abuso </h2>
+                <h2 class="left"> Polémica </h2>
+            </div>
+        </section>
+        <section class="quotes">
+            <div class="person"id="neg" data-aos="fade-right" data-aos-offset="500"> 
+                <p><h3> "Praxe tem que ser uma decisão dos estudantes"</h3>
+                <h4> <span class="bold">Ricardo Morgado</span>, Presidente da Associação Académica de Coimbra 2014</h4> </p>
+            </div>
+              <div class="person" id="pos"data-aos="fade-left" data-aos-offset="500"> 
+                <h3> "Ninguém poder ser obrigado a participar na praxe"</h3>
+                <h4> <span class="bold">João Gabriel Silva</span>, Antigo Reitor da Universidade de Coimbra</h4>
+                <img> 
+            </div>  
+            <div class="person"id="neg" data-aos="fade-right" data-aos-offset="500"> 
+                <h3> "Praxe? Matem os alunos com trabalho"</h3>
+                <h4> <span class="bold">António Cruz Serra</span>, Reitor da Universiade de Lisboa</h4>
+                <img> 
+            </div>
+            <div class="person"id="neg" data-aos="fade-right" data-aos-offset="500"> 
+                <h3> "Hoje é de facto o combate a esses movimentos que tem que ser considerado do ponto de vista político, mas sobretudo da comunicação do que deve ser o ensino superior"
+                </h3>
+                <h4> <span class="bold">Manuel Heitor</span>, Ministro da Ciência, Tecnologia e Ensino Superior</h4>
+                <img> 
+            </div>
+
+        </section>
+        <footer>
+            <div class="cta">
+                <h3> Assististe a algum tipo de praxe abusiva? Foste vítima de praxe abusiva? <br> <span class="bold">Denuncia!</span></h3>
+                <h4> praxesabusivas@dges.gov.pt </h4>
+                <h4>213 126 111 </h4>
+            </div>
+        </footer>
+    </body>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+         if (document.body.scrollTop > 400) {
+            document.getElementById('header').style.border = "10em solid white";
+            document.getElementById('header').style.transition = "2s";
+
+          } else {
+            document.getElementById('header').style.border = "2em solid white";
+            document.getElementById('header').style.transition = "0.5s";
+
+          }
+         if (document.body.scrollTop > 3000) {
+            document.getElementById('header').style.border = "2em solid white";
+            document.getElementById('header').style.transition = "1s";
+
+          }
+        }
+    </script>
+ </html>
